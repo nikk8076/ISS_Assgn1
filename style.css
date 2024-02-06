@@ -1,0 +1,141 @@
+body{
+    transition: 0.4s ease;
+    background-color: wheat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 19px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* padding: 0; */
+    margin: 0;
+}
+.section:hover{
+    transition: 0.1s ease-in-out;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding-top: 20px; */
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    /* margin-top: 20px; */
+    padding: 10px;
+}
+.section {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    background-image: linear-gradient(white,rgb(180, 178, 178));
+    flex: 1;
+    padding: 50px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.1);
+}
+.ss{
+    margin-left: 10px;
+}
+.aa{
+    text-shadow: 2px 5px 4px gray;
+}
+#heade{
+    background-color:gray;
+    display:block;
+    height: 6vh;
+    padding-top: 8px;
+}
+button{
+    margin-left: 90%;
+    margin-right: 0;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+header a{
+    padding-left: 50px;
+    padding-top:50%;
+    text-decoration: none;
+    color: wheat;
+    font-size: x-large;
+    display: inline;
+}
+header a:hover{
+    transition: 0.5s ease-in-out;
+    /* font-size: larger; */
+    color:aqua; 
+}
+.dark-mode .section {
+    background-image: linear-gradient(gray,rgb(55, 53, 53));
+    box-shadow: 2px 2px 3px white;
+    color: #fff;
+}
+.dark-mode {
+    transition: 0.4s;
+    /* background-image: linear-gradient(gray,black); */
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #222; 
+    color: #fff;
+}
+.dark-mode .section:hover{
+    transition: 0.1s ease-in-out;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+img{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#SocialMedia{
+    margin-left: 600px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#SocialMedia a{
+    padding-right: 13px;
+}
+#Clk{
+    color: blue;
+    float: left;
+    font-size: medium;
+    height: 5vh;
+    border: none;
+}
+#Clk:hover{
+    background-color:red;
+    transition: 0.5s ease-in-out;
+}
+#AboutMyself{
+    /* transition: 0.5s; */
+    font-size: 80px;
+}
+table{
+    margin-left: 15%;
+}
+th{
+    font-size: 26px;
+}
+td{
+    font-size: 22px;
+}
+th{
+    text-decoration: underline;
+}
+table,th,td{
+    width: 60%;
+    text-align: center;
+}
+th{
+    font-size: 25px;
+}
